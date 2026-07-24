@@ -809,7 +809,11 @@ async def upload(bot: Client, m: Message):
                        f"▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
                        f"✅𝗦𝗧𝗔𝗧𝗨𝗦 » 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘𝗗`")
     await m.reply_text(f"<pre><code>📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 ➤『{raw_text3}』</code></pre>") 
-                       
+    await m.reply_text(f"<pre><code>『🦋Vishal नाम तो सुना होगा🦋』</code></pre>")                 
+
+bot.run()
+if __name__ == "__main__":
+    asyncio.run(main())                   
 bot.run()
 if __name__ == "__main__":
     asyncio.run(main())
