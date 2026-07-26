@@ -797,9 +797,9 @@ async def upload(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    #await m.reply_text("**🥳𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆 𝗗𝗼𝗻𝗲🥳**")
-    await m.reply_text(f"<pre><code>📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 ➤『{raw_text3}』</code></pre>") 
-    await m.reply_text(f"<pre><code>『🦋𝗕𝗮𝘁𝗰𝗵 𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗱 𝘀𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆!🎉🦋』</code></pre>")                 
+        #await m.reply_text("**🥳𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆 𝗗𝗼𝗻𝗲🥳**")
+    await m.reply_text("𝗕𝗮𝘁𝗰𝗵 𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗱 𝘀𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆!🎉\n\n")
+    await m.reply_text(f"<pre><code>📥 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 ➤ {raw_text3}</code></pre>")                      
 
 bot.run()
 if __name__ == "__main__":
